@@ -1,0 +1,74 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {   
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-image: url('C:\Users\omkar.kshirsagar_jad\Documents\aws\css_box_model');
+}  
+
+header {
+   background-color: #edc7ce;
+   color: #a2ef26;
+   padding: 100px;
+   text-align: center;
+}
+
+
+
+.main-title {
+   font-size: 2rem;
+   text-transform: uppercase;
+   margin-bottom: 5px;
+}
+
+.subtitle {
+   font-size: 1.2rem;
+   color: #ddd;
+}
+
+.box {
+   width: 80%;
+   margin: 20px auto;
+   padding: 20px;
+   border: 2px solid #333;
+   background-color: #eaeaea;
+   border-radius: 10px;
+   text-align: center;
+}
+
+/* Flexbox Layout */
+.flex-container {
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   margin-top: 20px;
+   background-color: #fff;
+   border-top: 2px solid #333;
+   border-bottom: 2px solid #333;
+}
+
+.flex-item {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   flex-grow: 1;
+   text-align: center;
+   margin: 10px;
+   font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px 0;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+} 	
